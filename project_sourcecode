@@ -29,7 +29,7 @@ while keep_playing:
         print("Human score is :" + str(count_h))
 
         print("\nOverall results:")
-        if count_c &gt; count_h:
+        if count_c > count_h:
             print("Better luck next time!\n")
         elif count_c == count_h:
             print("It is a draw\n")
